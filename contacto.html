@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos y Contacto - Brayan Marcelo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h2>Proyectos Realizados</h2>
+            <ul>
+                <li>
+                    <h3>Paguina de adminiostarcion de CARBONET</h3>
+                    <p>Se diseño una paguina web para la mina la cual se llamo CARBONET para la gestion de informcion yd e registros</p>
+                    <img src="proyecto1.jpg" alt="Sistema de Gestión de Ejemplos" class="project-image">
+                </li>
+                <li>
+                    <h3>Gestor de granja </h3>
+                    <p>Se creo un programa pa llevar el registro de ganado y agricultura de una grana en python.</p>
+                    <img src="proyecto2.jpg" alt="Aplicación de Tareas" class="project-image">
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="telefono">Número de Contacto:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="tipo_telefono">Tipo de Número:</label>
+                <select id="tipo_telefono" name="tipo_telefono" required>
+                    <option value="personal">Personal</option>
+                    <option value="fijo">Fijo</option>
+                    <option value="oficina">Oficina</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
